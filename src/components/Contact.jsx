@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import HeroBanner from "../assets/HeroBanner.png";
 import MobileBanner from "../assets/MobileBanner.png";
 
-const contactPhone = "919876543210"; // Mee WhatsApp number tho replace cheyyi
-const contactEmail = "yourname@gmail.com"; // Mee email tho replace cheyyi
+const contactPhone = "919848089466"; // Mee WhatsApp number tho replace cheyyi
+const contactEmail = "mallidialekhya@gmail.com"; // Mee email tho replace cheyyi
 
 const contactDetails = [
   {
