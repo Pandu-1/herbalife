@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+@theme{
+    --color-primary: #16722A;
+    --color-primary-dull: #F5FAF5;
+    --color-dark-green: #084C2A;
+    --color-highlight: #529C1C;
+    --color-heading: #084C2A;
+    --color-body: #183528;
+    --color-gold: #DA9766;
+}
+
+
+.wellness-arrow {
+  transition: transform 300ms ease-in-out;
+}
+
+.wellness-link:hover .wellness-arrow {
+  transform: translateX(12px);
+}
+
+.explore-link {
+  transition: transform 300ms ease-in-out;
+}
+
+.explore-link:hover {
+  transform: scale(1.04);
+}
+
+
+/* My Journey Button */
+.journey-btn {
+  background-color: #15803d;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.journey-btn:hover {
+  background-color: #166534;
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 18px rgba(0, 100, 40, 0.25);
+}
+
+.journey-btn .arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.journey-btn:hover .arrow-icon {
+  transform: translateX(5px);
+}
+
+
+/* Join Button */
+.join-btn {
+  background-color: transparent;
+  border: 2px solid #166534;
+  color: #14532d;
+  transition: all 0.3s ease-in-out;
+}
+
+.join-btn:hover {
+  background-color: #166534;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 100, 40, 0.2);
+}
+
+
+/* Keyboard focus */
+.journey-btn:focus-visible,
+.join-btn:focus-visible {
+  outline: 3px solid #86efac;
+  outline-offset: 4px;
+}
